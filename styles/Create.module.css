@@ -1,0 +1,13 @@
+.createBox{
+    background-color: red;
+  width: 50%;
+  height: 300px;
+}
+
+
+.panel{
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+     
+  }

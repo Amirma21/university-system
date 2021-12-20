@@ -1,0 +1,112 @@
+.description {
+    position: relative;
+    border-radius: 1rem 1rem 0 0;
+    direction: rtl;
+    padding: 1rem 1.5rem;
+    width: 65vw;
+    height: fit-content;
+    box-shadow: 0px 4px 10px #ccd5e6;
+    background-color: #fff;
+    margin: 5rem auto;
+}
+
+.titleText{
+    text-align: center;
+    margin-right: 0.3rem ;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.searchbox {
+    margin: 5%;
+    border-radius: 2rem;
+    direction: rtl;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0px 4px 10px #256eff59;
+    background-color: #fff;
+}
+
+.textField {
+    position: relative;
+    margin: 10px 2.5px 20px 2.5px;
+}
+
+.textField input {
+    display: inline-block;
+    border: thin solid #fafafa;
+    border-bottom: solid medium #999;
+    color: #444;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textField input:focus {
+    border: thin solid #3B3BA4;
+    border-bottom: solid medium #3B3BA4;
+    background-color: #fff;
+}
+
+.textField label {
+    color: #999;
+    position: absolute;
+    pointer-events: none;
+    top: 10px;
+    right: 10px;
+    transition: 0.2s;
+}
+
+.textField input:focus~label,
+.textField input:valid~label {
+    top: -10px;
+    right: 15px;
+    font-size: small;
+    color: #3B3BA4;
+    background-color: #fff;
+    padding: 0 5px 0 5px;
+}
+
+.textField input:focus {
+    border-radius: 10px;
+}
+
+.btnContainer{
+    position: absolute;
+    bottom: 12%;
+    left: 5%;
+}
+
+.submitButton {
+    width: 7vw;
+    height: 5vh;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #3B3BA4;
+    color: #fff;
+    font-size: 0.75rem;
+
+}
+
+.ereor{
+    margin-top: 0.3rem ;
+    font-size: 12px;
+
+    color: rgb(59, 59, 245);
+}

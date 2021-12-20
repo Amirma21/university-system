@@ -1,0 +1,33 @@
+.box {
+    margin: 5%;
+    border-radius: 2rem;
+    direction: rtl;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0px 4px 10px #256eff59;
+    background-color: #fff;
+}
+
+.table thead,
+.table tbody,
+.table tr,
+.table td,
+.table th {
+    border-style: none;
+}
+
+.downloadButton {
+    width: 7vw;
+    height: 5vh;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #0000f8ab;
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+.table tbody tr td:last-child {
+    text-align: end;
+}
