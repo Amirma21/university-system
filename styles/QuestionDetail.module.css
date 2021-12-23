@@ -2,11 +2,11 @@
     position: relative;
     border-radius: 1rem 1rem 0 0;
     direction: rtl;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
     width: 65vw;
-    height: fit-content;
+    height: min-content;
     box-shadow: 0px 4px 10px #ccd5e6;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     margin: 5rem auto;
 }
 
@@ -88,7 +88,7 @@
 
 .btnContainer{
     position: absolute;
-    bottom: 12%;
+    bottom: 8%;
     left: 5%;
 }
 
@@ -98,15 +98,18 @@
     border-radius: 10px;
     outline: none;
     border: none;
-    background-color: #3B3BA4;
+    background-color:#9393dd ;
     color: #fff;
     font-size: 0.75rem;
 
 }
 
+.submitButton:enabled {
+    background-color: #3B3BA4;
+}
+
 .ereor{
     margin-top: 0.3rem ;
     font-size: 12px;
-
     color: rgb(59, 59, 245);
 }
